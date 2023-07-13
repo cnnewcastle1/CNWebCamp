@@ -1,4 +1,4 @@
-a{
+/*a{
 	font-family: Calibri;
 }
 
@@ -8,4 +8,60 @@ a:link{
 
 a:visited {
 	color:Green;
+}
+
+a:hover {
+	color: Coral;
+}
+
+
+h1:hover {
+	color:red;
+	text-decoration: underline overline;
+}
+
+p{
+	color: white;
+	transition-duration:11s;
+	font-size:1px;
+			font-family: Impact;
+}
+body {
+	background-color: white;
+}
+img{
+	width: 0.5%;
+	opacity: 0.1;
+	transition-duration: 10s;
+	border:0px solid red;
+
+}
+img:hover{
+	width: 25%;
+	opacity: 1;
+	border-radius: 50%;
+	border:10px solid Coral;
+
+}
+img:hover + p{
+		color:Black;
+
+		font-size: 50px;
+}
+img:hover::after{
+		filter: invert(100%);
+}*/
+.filter{
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+	filter: hue-rotation(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+	filter: hue-rotate(359deg);
+  }
 }
