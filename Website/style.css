@@ -1,0 +1,11 @@
+a{
+	font-family: Calibri;
+}
+
+a:link{
+	color:DodgerBlue;
+}
+
+a:visited {
+	color:Green;
+}
