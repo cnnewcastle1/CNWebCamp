@@ -53,6 +53,7 @@ img:hover::after{
 }*/
 .filter{
   animation: rotation 2s infinite linear;
+  margin-top:10%;
 }
 
 @keyframes rotation {
