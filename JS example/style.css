@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+	font-family: Calibri;
+	color: white;
+}
+body {
+	margin: 0;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+img {
+	margin-top:20px;
+	transition-duration: 10s;
+}
+img:hover{
+	width: 30%;
+	filter: invert(100%);
+}
